@@ -1,7 +1,9 @@
-('URL','https://www.abc.com');
-('URL','https://www.github.com');
-('URL','https://www.youtube.com/');
-('URL','https://abr.business.gov.au');
-('URL','ftp://www.example.com');
+'http://www.googel.com';
+'url', 'http://www.googel.com';
+'url', 'https://www.abc';
+'url', 'https://www.github.com';
+'url', 'https://abr.business.gov.au';
+'url', 'googel';
+"example.com";
 
 
