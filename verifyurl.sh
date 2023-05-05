@@ -1,5 +1,5 @@
 #!/bin/bash
-file="/home/m.khan/URL_Verification_Script/textfile.txt"
+file="./textfile.txt"
 url=$(grep 'http' $file | cut -d "'" -f 4 | sed s/'URL:\/\/'/''/g)
 END=3
 regex='^(https?|ftp|file)://[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]\.[-A-Za-z0-9\+&@#/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#/%=~_|]$'
